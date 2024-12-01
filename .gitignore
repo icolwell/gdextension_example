@@ -1,35 +1,10 @@
-
-#Build directory
-build*/
-_build*/
-out/
-
-#Hidden files
-.*
-!.gitignore
-!.gitmodules
-!.dockerignore
-!.clang-tidy
-!.clangd
-!.astylerc
-!.uncrustify.cfg
-!.gdignore
-!.gdextension
-
-# Codeblocks
-*.depend
-*.layout
-
-#QT Creator
-CMakeLists.txt.user
-*.pro.user*
-
 # Godot 4+ specific ignores
 .godot/
 
-#Misc
-*.orig
-CMakeUserPresets.json
-compile_commands.json
-*~
-tmp/
+# CMake build output
+build/
+
+# scons build output (scattered around)
+*.os
+*.so
+*.dblite

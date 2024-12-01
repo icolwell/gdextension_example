@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="gdextension_demo"
-config/features=PackedStringArray("4.2", "GL Compatibility")
+run/main_scene="res://demo/demo_scene.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://demo/icon.svg"
 
 [rendering]
